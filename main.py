@@ -32,7 +32,7 @@ def read_array():
 
 
 def main():
-    print("=== Lab 2: Keyboard Input ===")
+    print("Lab01: Keyboard Input")
     read_number_sequence()
     read_array()
 
