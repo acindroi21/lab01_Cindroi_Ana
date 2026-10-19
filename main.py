@@ -36,7 +36,20 @@ def main():
     read_number_sequence()
     read_array()
 
-
 if __name__ == "__main__":
     main()
 
+def read_numbers_from_file():
+    filename = input("Enter the text file name: ")
+
+    try:
+        with open(filename, "r") as file:
+            content = file.read()
+
+        numbers = content.split()
+        print("Numbers read from file:", numbers)
+
+    except FileNotFoundError:
+        print("Error: The specified file does not exist.")
+
+    read_numbers_from_file()
