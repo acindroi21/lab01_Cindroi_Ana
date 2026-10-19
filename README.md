@@ -18,7 +18,7 @@ This project is a Python application that reads numbers from keyboard input and 
 3. Follow the prompts to enter a sequence of numbers, the array dimensions and values, and the text filename.
 
 # text file example
-Create a file named `numbers.txt` in the same directory as `main.py`, containing: 10 20 30 40 50
+Create a file named `numbers.txt` in the same directory as `main.py`, containing: 10 20 30 40 50.
 When prompted for the filename, enter `numbers.txt`
 # branches
 - feature/console-input — keyboard input functionality
